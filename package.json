@@ -21,7 +21,7 @@
   "author": "elkincp5",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "8.4.4"
+    "mongoose": "8.9.2"
   },
   "devDependencies": {
     "ts-node": "10.9.2",
