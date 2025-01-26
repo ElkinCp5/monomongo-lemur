@@ -1,9 +1,9 @@
 {
   "name": "monomongo-lemur",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/server/index.js",
   "browser": "dist/browser/index.js",
-  "description": "Paquete de conexion a mongoDB",
+  "description": "MonoMongo es una biblioteca para gestionar conexiones con bases de datos MongoDB utilizando Mongoose, facilitando el manejo de entornos locales y de producción.",
   "scripts": {
     "browser-watch": "npx tsc --outDir dist/browser --module ES6 -w",
     "server-watch": "npx tsc --outDir dist/server -w",
@@ -18,7 +18,14 @@
     "monomongo-lemur",
     "lemur"
   ],
-  "author": "elkincp5",
+  "author": {
+    "name": "elkin chaverra",
+    "email": "elkincp5@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElkinCp5/monomongo-lemur"
+  },
   "license": "MIT",
   "dependencies": {
     "mongoose": "8.9.5"
@@ -27,5 +34,6 @@
     "ts-node": "10.9.2",
     "ts-node-dev": "2.0.0",
     "typescript": "5.5.3"
-  }
+  },
+  "homepage": "https://github.com/ElkinCp5/monomongo-lemur#readme"
 }
