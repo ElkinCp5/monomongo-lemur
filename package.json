@@ -1,6 +1,6 @@
 {
   "name": "monomongo-lemur",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/server/index.js",
   "browser": "dist/browser/index.js",
   "description": "Paquete de conexion a mongoDB",
@@ -19,13 +19,13 @@
     "lemur"
   ],
   "author": "elkincp5",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "mongoose": "8.9.2"
+    "mongoose": "8.9.5"
   },
   "devDependencies": {
     "ts-node": "10.9.2",
     "ts-node-dev": "2.0.0",
-    "typescript": "^5.5.3"
+    "typescript": "5.5.3"
   }
 }
