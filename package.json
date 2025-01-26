@@ -1,6 +1,6 @@
 {
   "name": "monomongo-lemur",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "main": "dist/server/index.js",
   "browser": "dist/browser/index.js",
   "description": "MonoMongo es una biblioteca para gestionar conexiones con bases de datos MongoDB utilizando Mongoose, facilitando el manejo de entornos locales y de producción.",
