@@ -7,13 +7,13 @@ MonoMongo is a library for managing connections to MongoDB databases using Mongo
 Install the library using npm or yarn:
 
 ```bash
-npm install mongoose
+npm install monomongo-lemur
 ```
 
 Or if you prefer yarn:
 
 ```bash
-yarn add mongoose
+yarn add monomongo-lemur
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add mongoose
 ### Import
 
 ```typescript
-import { MonoMongo } from "./path-to-mono-mongo";
+import { MonoMongo } from "./monomongo-lemur";
 ```
 
 ### Connecting to the Database
